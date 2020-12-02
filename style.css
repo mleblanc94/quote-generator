@@ -1,0 +1,82 @@
+body {
+	margin: 0px;
+	background-color: #b00e21;
+}
+
+.top-div {
+	width: 40%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 4%;
+	padding-bottom: 40px;
+	border-radius: 30px
+}
+
+.top-div h1 {
+ color: white;
+}
+
+.div-body {
+	width: 40%;
+	background-color: white;
+	margin: 0 auto;
+	height: 60vh;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.div-body h3 {
+	margin-left: 12%;
+	margin-top: -7%;
+	padding-top: 2%;
+}
+
+.billAmount {
+	display: flex;
+	flex-direction: row;
+}
+
+.amount-input {
+	padding-left: 0px;
+}
+
+.dollarsign {
+    font-size: 300%;
+    margin-left: 30px;
+    height: 50px;
+    width:50px;
+    display: flex;
+    align-items: center;
+}
+
+p {
+	height: 110%;
+	width: 100%;
+	font-size: 80%;
+}
+
+input {
+	width: 150%;
+	height: 80%;
+}
+
+select {
+	margin-left: 13%;
+	width: 33%;
+	height: 7%;
+}
+
+button {
+	margin-left: 66%;
+	padding: 20px;
+	width: 25%;
+	border-radius: 20px;
+}
+
+#lastquestioninput {
+	width: 19%;
+	margin-left: 13%;
+	height: 5%;
+}

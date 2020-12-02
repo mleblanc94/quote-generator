@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- TOP BLACK DIV WITH TIP CALCULATOR WRITTEN IN IT -->
+	<div class="top-div">
+		<h1>TIP CALCULATOR</h1>
+	</div>
+	<!-- BODY OF TIP CALCULATOR -->
+    <div class="div-body">
+       <h3>How much was your bill?</h3><br>
+       <div class="billAmount">
+       	<div class="dollarsign">
+       <p>$</p>
+   		</div>
+   		<div class="amount-input">
+       <input type="number" placeholder="Bill Amount">
+   </div>
+    </div>
+    <br><br><br><br>
+    <h3>How was your service?</h3>
+    <select>
+    	<option value="selectvalue" name="poor">--Select An Option--</option>
+    	<option value="poor" name="poor">Poor (10%)</option>
+        <option value="average" name="average">Average (15%)</option>
+        <option value="good" name="good">Good (20%)</option>
+        <option value="great" name="great">Great (25%)</option>
+    </select>
+     <button id="button">Calculate!</button>
+    <div class="lastquestion">
+    <h3>How many people are sharing the bill?</h3>
+  		 </div>
+    	<input id="lastquestioninput" type="number" placeholder="Number of people">
+	</body>
+	<html>
