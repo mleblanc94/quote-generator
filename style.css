@@ -73,9 +73,12 @@ button {
 	padding: 20px;
 	width: 25%;
 	border-radius: 20px;
+	font-weight: bold;
+	font-size: 180%;
+	background-color: #ff0000;
 }
 
-#lastquestioninput {
+#input2 {
 	width: 19%;
 	margin-left: 13%;
 	height: 5%;

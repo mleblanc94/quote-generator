@@ -17,13 +17,13 @@
        <p>$</p>
    		</div>
    		<div class="amount-input">
-       <input type="number" placeholder="Bill Amount">
+       <input id="input1" type="number" placeholder="Bill Amount">
    </div>
     </div>
     <br><br><br><br>
     <h3>How was your service?</h3>
-    <select>
-    	<option value="selectvalue" name="poor">--Select An Option--</option>
+    <select id="selectID">
+    	<option value="selectvalue" name="selectvalue">--Select An Option--</option>
     	<option value="poor" name="poor">Poor (10%)</option>
         <option value="average" name="average">Average (15%)</option>
         <option value="good" name="good">Good (20%)</option>
@@ -33,6 +33,12 @@
     <div class="lastquestion">
     <h3>How many people are sharing the bill?</h3>
   		 </div>
-    	<input id="lastquestioninput" type="number" placeholder="Number of people">
+    	<input id="input2" type="number" placeholder="Number of people">
+      <br><br>
+<!--       ANSWER TO WHAT THE TIP IS -->
+      <div id="answer">
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
 	</body>
-	<html>
+	</html>
