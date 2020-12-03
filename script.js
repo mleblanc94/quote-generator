@@ -37,26 +37,7 @@ document.getElementById("each").style.display = "none";
 // CLICK TO CALL FUNCTION
 document.getElementById("button").onclick = function() {
 	calculateTip();
+	billAmount = "";
+	serviceLevel = "";
+	amountPeople = "";
 }
-
-// let a = (realBillAmount / realAmountPeople) * realServiceLevel;
-
-// console.log(a);
-
-
-// let giveAnswer = () => {
-// document.getElementById("answer").innerHTML = a;
-// }
-// }
-// let appendAnswer = () => {
-//     let h1 = document.createElement("h1");
-// 	h1.appendChild(document.createTextNode(a));
-// 	answer.appendChild(h1);
-// 	billAmount = "";
-// 	serviceLevel = "";
-// 	amountPeople = "";
-// }
-
-
-
-// button.addEventListener("click", giveAnswer);
