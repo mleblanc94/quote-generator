@@ -1,17 +1,18 @@
-let billAmount = document.getElementById("input1");
-let serviceLevel = document.getElementById("selectID");
-let amountPeople = document.getElementById("input2");
+let billAmount = document.getElementById("input1").value;
+let serviceLevel = document.getElementById("selectID").value;
+let amountPeople = document.getElementById("input2").value;
 let button = document.getElementById("button");
 let answer = document.getElementById("answer");
 
-let realBillAmount = Number(billAmount.value);
-let realAmountPeople = Number(amountPeople.value);
-console.log(realBillAmount);
+let realBillAmount = Number(billAmount);
+let realAmountPeople = Number(amountPeople);
 
 let a = realBillAmount / realAmountPeople;
 
+console.log(a);
+
 let calculation = (a) => {
-	if (serviceLevel.value === "poor") {
+	if (serviceLevel === "poor") {
 		return a * .10;
 	} else if (serviceLevel.value === "average") {
 		return a * .15;
@@ -21,6 +22,8 @@ let calculation = (a) => {
 		return a * .25;
 	}
 }
+
+console.log(calculation());
 
 let appendAnswer = () => {
     let h1 = document.createElement("h1");
