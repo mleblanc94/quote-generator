@@ -55,6 +55,7 @@ p {
 	height: 110%;
 	width: 100%;
 	font-size: 80%;
+	float: right;
 }
 
 input {
@@ -77,10 +78,13 @@ button {
 	font-size: 180%;
 	background-color: #ff0000;
 }
+#input1 {
+  margin-left: 20px;
+}
 
 #input2 {
 	width: 19%;
-	margin-left: 13%;
+	margin-left: 13.3%;
 	height: 5%;
 }
 
