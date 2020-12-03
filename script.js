@@ -1,8 +1,8 @@
+// CALCULATE TIP
+let calculateTip = () => {
 let billAmount = document.getElementById("input1").value;
 let serviceLevel = document.getElementById("selectID").value;
 let amountPeople = document.getElementById("input2").value;
-let button = document.getElementById("button");
-let answer = document.getElementById("answer");
 
 let realBillAmount = Number(billAmount);
 let realAmountPeople = Number(amountPeople);
@@ -17,13 +17,19 @@ let a = (realBillAmount / realAmountPeople) * realServiceLevel;
 console.log(a);
 
 
-let appendAnswer = () => {
-    let h1 = document.createElement("h1");
-	h1.appendChild(document.createTextNode(a));
-	answer.appendChild(h1);
-	billAmount = "";
-	serviceLevel = "";
-	amountPeople = "";
+let giveAnswer = () => {
+document.getElementById("answer").innerHTML = a;
 }
+}
+// let appendAnswer = () => {
+//     let h1 = document.createElement("h1");
+// 	h1.appendChild(document.createTextNode(a));
+// 	answer.appendChild(h1);
+// 	billAmount = "";
+// 	serviceLevel = "";
+// 	amountPeople = "";
+// }
 
-button.addEventListener("click", appendAnswer);
+
+
+button.addEventListener("click", giveAnswer);
