@@ -1,120 +1,106 @@
 body {
-	margin: 0px;
-	background-color: #b00e21;
+	margin: 0;
+	background-image: url("https://i.pinimg.com/originals/40/ce/e2/40cee2ae407de99af49bea4ff771bcff.jpg");
+	background-image: stretch;
 }
 
-.top-div {
-	width: 40%;
-	background-color: black;
+.nav {
 	display: flex;
-	justify-content: center;
-	margin: 0 auto;
-	margin-top: 4%;
-	padding-bottom: 40px;
-	border-radius: 30px
-}
-
-.top-div h1 {
- color: white;
-}
-
-.div-body {
-	width: 40%;
-	background-color: white;
-	margin: 0 auto;
-	height: 60vh;
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-}
-
-.div-body h3 {
-	margin-left: 12%;
-	margin-top: -7%;
-	padding-top: 2%;
-}
-
-.billAmount {
-	display: flex;
-	flex-direction: row;
-}
-
-.amount-input {
-	padding-left: 0px;
-}
-
-.dollarsign {
-    font-size: 300%;
-    margin-left: 30px;
-    height: 50px;
-    width:50px;
-    display: flex;
-    align-items: center;
-}
-
-p {
-	height: 110%;
-	width: 100%;
-	font-size: 80%;
-	float: right;
-}
-
-input {
-	width: 150%;
-	height: 80%;
-}
-
-select {
-	margin-left: 13%;
-	width: 33%;
-	height: 7%;
-}
-
-button {
-	margin-left: 66%;
-	padding: 20px;
-	width: 25%;
+	background-color: #b6b6b8;
+	color: white;
+	list-style: none;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 20px;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	font-family: fantasy;
+}
+
+.navitems {
 	font-weight: bold;
-	font-size: 180%;
-	background-color: #ff0000;
-}
-#input1 {
-  margin-left: 20px;
+	font-size: 1.5em;
+	margin: 20px;
 }
 
-#input2 {
-	width: 19%;
-	margin-left: 13.3%;
-	height: 5%;
+.push {
+	margin-left: auto;
+	margin-right: 30px;
 }
 
-#answer  {
-	margin-bottom: 20px;
-	width: 10%;
-	margin: 0 auto;
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	font-weight: bold;
+	font-family: fantasy;
 }
 
-#totalTip {
-  font-size: 30px;
-  margin-top: 5px;
-  text-align: center;
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-bottom: 0;
+	/*grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;*/
 }
 
-#totalTip:before {
-  content: "Tip amount";
-  font-size: 20px;
-  font-weight: bold;
-  display: block;
-  text-transform: uppercase;
+.box {
+	height: 400px;
+	width: 300px;
+	margin: 20px;
+	background-color: #e1e1e3;
+	border-radius: 20px;
+	border: 4px solid black;
+	transition: all 1s;
 }
 
-#totalTip sup {
-  font-size: 20px;
-  top: -18px;
+.box:hover {
+	transform: scale(1.14);
 }
 
-#totalTip small {
-  font-size: 20px;
-  font-weight: bold;
-  display: block;
+.footer {
+	margin-bottom: 0;
+	width: 100%;
+	height: 100%;
+	 background-color: blue;
+}
+
+.footer p {
+   margin: 0px;
+	color: white;
+	text-align: center;
+}
+
+.box h5 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.boximage {
+	width: 100%;
+	height: 100%;
+	/*display: flex;
+	justify-content: center;*/
+}
+
+.boximage img {
+	width: 100%;
+	height: auto;
+}
+
+.d {
+	margin-bottom: 500px;
+	padding-bottom: 50px;
+}
+
+.userh5 {
+	margin-bottom:30px;
 }

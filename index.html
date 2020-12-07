@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-	<title>Tip Calculator</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+   <title>IntelliChip</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<!-- TOP BLACK DIV WITH TIP CALCULATOR WRITTEN IN IT -->
-	<div class="top-div">
-		<h1>TIP CALCULATOR</h1>
-	</div>
-	<!-- BODY OF TIP CALCULATOR -->
-    <div class="div-body">
-       <h3>How much was your bill?</h3><br>
-       <div class="billAmount">
-       	<div class="dollarsign">
-       <p>$</p>
-   		</div>
-   		<div class="amount-input">
-       <input id="input1" type="number" placeholder="Bill Amount">
-   </div>
+	<!-- BEGINNING OF THE NAV BAR -->
+    <nav>
+    	<ul class="nav">
+    		<li class="navitems"><a href="">Home</a></li>
+    		<li class="navitems"><a href="">About</a></li>
+    		<li class="navitems"><a href="">Locations</a></li>
+    		<li class="push navitems"><a href="">Contact</a></li>
+    	</ul>
+    	</nav>
+    <!-- BEGINNING OF HEADER -->
+     <h1>Welcome To IntelliChip!</h1>
+     <!-- BEGINNING OF BODY WITH DIVS -->
+     <div class="container">
+     	<div class="box"><h5>Central Processing Unit (CPU)</h5>
+        <div class="boximage"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QMoNky8n--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/c0weqnjbb9b4xm2s0uik.jpg"></div>
+        </div>
+     	<div class="box"><h5>Sockets</h5>
+        <div class="boximage"><img src="https://ptgmedia.pearsoncmg.com/images/chap3_9780789756459/elementLinks/03fig17.jpg"></div>
+        </div>
+     	<div class="box"><h5>Cores</h5>
+        <div class="boximage"><img src="https://techgearoid.com/wp-content/uploads/2019/08/What-is-Core-in-Computer.jpg"></div>
+        </div>
+     	<div class="box"><h5 class="userh5">User Input and Output</h5>
+        <div class="boximage d"><img src="https://cnx.org/resources/4dc38ee5d77b5ad943f6326135da198f1a926a72/graphics1.jpg"></div>
+        </div>
+     	<div class="box"><h5>Web Development Programming</h5>
+        <div class="boximage"><img src=""></div>
+        </div>
+        <div class="box"><h5>Game Development Programming</h5>
+        <div class="boximage"><img src=""></div>
+        </div>
+        <div class="box"><h5>Machine Learning</h5>
+        <div class="boximage"><img src=""></div>
+        </div>
+        <div class="box"><h5>IT Support and Hardware</h5>
+        <div class="boximage"><img src=""></div>
+        </div>
+     </div>
+    <!--  BEGINNING OF LARGE FOOTER -->
+    <div class="footer">
+        <p>IntelliSquirt does not actually exist and is a fictitious company. If you couldn't tell that by looking at this webpage then yikes. This is part of a sample project in order to increase my skills in Flexbox and CSS Grid. Please let me know if you have any questions. I need one last sentence to have enough text to throw this in the footer. Okay one more. Thats it.</p>
     </div>
-    <br><br><br><br>
-    <h3>How was your service?</h3>
-    <select id="selectID">
-    	<option value="selectvalue" name="selectvalue">--Select An Option--</option>
-    	<option value=".10" name="poor">Poor (10%)</option>
-        <option value=".15" name="average">Average (15%)</option>
-        <option value=".20" name="good">Good (20%)</option>
-        <option value=".25" name="great">Great (25%)</option>
-    </select>
-     <button id="button">Calculate!</button>
-    <div class="lastquestion">
-    <h3>How many people are sharing the bill?</h3>
-  		 </div>
-    	<input id="input2" type="number" placeholder="Number of people">
-      <br><br>
-<!--       ANSWER TO WHAT THE TIP IS -->
-      <div id="totalTip">
-        <sup>$</sup><span id="tip">0.00</span>
-        <small id="each">each</small>
-      </div>
-    </div>
-    <script type="text/javascript" src="script.js"></script>
-	</body>
-	</html>
+</body>
+</html>
