@@ -11,7 +11,7 @@ let buttonReset = document.getElementById("reset");
 //To store timer values
 let interval; 
 
-let startTimer(){
+function startTimer() {
 	milliseconds++;
 
 	if (milliseconds < 9) {
@@ -31,6 +31,10 @@ let startTimer(){
 	}
 }
 
+// buttonStart.onClick = function() {
+// 	interval = setInterval(startTimer);
+// }
+
 buttonStart.onClick = function() {
-	interval = setInterval(startTimer);
+	console.log("It works");
 }
