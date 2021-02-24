@@ -1,51 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>IntelliChip</title>
-   <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Vanilla Javascript Stopwatch</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<!-- BEGINNING OF THE NAV BAR -->
-    <nav>
-    	<ul class="nav">
-    		<li class="navitems"><a href="">Home</a></li>
-    		<li class="navitems"><a href="">About</a></li>
-    		<li class="navitems"><a href="">Locations</a></li>
-    		<li class="push navitems"><a href="">Contact</a></li>
-    	</ul>
-    	</nav>
-    <!-- BEGINNING OF HEADER -->
-     <h1>Welcome To IntelliChip!</h1>
-     <!-- BEGINNING OF BODY WITH DIVS -->
-     <div class="container">
-     	<div class="box"><h5>Central Processing Unit (CPU)</h5>
-        <div class="boximage"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QMoNky8n--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/c0weqnjbb9b4xm2s0uik.jpg"></div>
-        </div>
-     	<div class="box"><h5>Sockets</h5>
-        <div class="boximage"><img src="https://ptgmedia.pearsoncmg.com/images/chap3_9780789756459/elementLinks/03fig17.jpg"></div>
-        </div>
-     	<div class="box"><h5>Cores</h5>
-        <div class="boximage"><img src="https://techgearoid.com/wp-content/uploads/2019/08/What-is-Core-in-Computer.jpg"></div>
-        </div>
-     	<div class="box"><h5 class="userh5">User Input and Output</h5>
-        <div class="boximage d"><img src="https://cnx.org/resources/4dc38ee5d77b5ad943f6326135da198f1a926a72/graphics1.jpg"></div>
-        </div>
-     	<div class="box"><h5>Web Development Programming</h5>
-        <div class="boximage"><img src=""></div>
-        </div>
-        <div class="box"><h5>Game Development Programming</h5>
-        <div class="boximage"><img src=""></div>
-        </div>
-        <div class="box"><h5>Machine Learning</h5>
-        <div class="boximage"><img src=""></div>
-        </div>
-        <div class="box"><h5>IT Support and Hardware</h5>
-        <div class="boximage"><img src=""></div>
-        </div>
-     </div>
-    <!--  BEGINNING OF LARGE FOOTER -->
-    <div class="footer">
-        <p>IntelliChip does not actually exist and is a fictitious company.</p>
-    </div>
+<br>
+<br>
+<h1 class="header">Javascript Stopwatch</h1>
+<h1>Practice Project - Record Your Time!</h1>
+<br>
+<br>
+<br>
+<p><span class="hours">00</span>:<span class="minutes">00</span>:<span class="seconds">00</span>:<span class="milliseconds">00</span></p>
+<br>
+<br>
+<br>
+
+<div class=buttons>
+	<button onClick="buttonStart" class="start">START</button>
+	<button onClick="buttonStop" class="stop">STOP</button>
+	<button onClick="buttonReset" class="reset">RESET</button>
+</div>
+<footer>Created by Michael LeBlanc 2/22/2021</footer>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
