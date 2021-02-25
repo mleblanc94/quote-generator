@@ -31,10 +31,18 @@ function startTimer() {
 	}
 }
 
-// buttonStart.onClick = function() {
-// 	interval = setInterval(startTimer);
-// }
+let startFunction = () => {
+	interval = setInterval(startTimer);
+}
 
-buttonStart.onClick = function() {
-	console.log("It works");
+let stopFunction = () => {
+	clearInterval(interval);
+}
+
+let resetFunction = () => {
+	clearInterval(interval);
+	milliseconds = "00";
+	seconds = "00";
+	appendMilliseconds.innerHTML = milliseconds;
+	appendSeconds.innerHTML = seconds;
 }
