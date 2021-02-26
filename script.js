@@ -20,3 +20,75 @@ let box1XO = (i) => {
 	}
 	i++;
 }
+
+let box2XO = (i) => {
+	if (i % 2) {
+		box2.innerHTML = "X";
+	} else {
+		box2.innerHTML = "O";
+	}
+	i++;
+}
+
+let box3XO = (i) => {
+	if (i % 2) {
+		box3.innerHTML = "X";
+	} else {
+		box3.innerHTML = "O";
+	}
+	i++;
+}
+
+let box4XO = (i) => {
+	if (i % 2) {
+		box4.innerHTML = "X";
+	} else {
+		box4.innerHTML = "O";
+	}
+	i++;
+}
+
+let box5XO = (i) => {
+	if (i % 2) {
+		box5.innerHTML = "X";
+	} else {
+		box5.innerHTML = "O";
+	}
+	i++;
+}
+
+let box6XO = (i) => {
+	if (i % 2) {
+		box6.innerHTML = "X";
+	} else {
+		box6.innerHTML = "O";
+	}
+	i++;
+}
+
+let box7XO = (i) => {
+	if (i % 2) {
+		box7.innerHTML = "X";
+	} else {
+		box7.innerHTML = "O";
+	}
+	i++;
+}
+
+let box8XO = (i) => {
+	if (i % 2) {
+		box8.innerHTML = "X";
+	} else {
+		box8.innerHTML = "O";
+	}
+	i++;
+}
+
+let box9XO = (i) => {
+	if (i % 2) {
+		box9.innerHTML = "X";
+	} else {
+		box9.innerHTML = "O";
+	}
+	i++;
+}
