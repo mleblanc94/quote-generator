@@ -10,7 +10,9 @@ let box8 = document.getElementById("box8");
 let box9 = document.getElementById("box9");
 // Integer I to vary between X and O
 let i = 1;
-
+//Letting the players set their names for the game
+let player1 = prompt("Player 1 - Please enter your name:");
+let player2 = prompt("Player 2 - Please enter your name:")
 
 let box1XO = (i) => {
 	if (i % 2) {
