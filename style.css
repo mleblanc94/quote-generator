@@ -4,6 +4,7 @@ body {
 
 h1 {
 	text-align: center;
+    font-family: "Brush Script MT", cursive;
 }
 
 #container {
@@ -21,4 +22,8 @@ h1 {
 
 #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9 {
 	border: 10px solid black;
+}
+
+#container #box1:hover, #box2:hover, #box3:hover, #box4:hover, #box5:hover, #box6:hover, #box7:hover, #box8:hover, #box9:hover {
+    background-color: #adaca8;
 }
