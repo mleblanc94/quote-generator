@@ -35,7 +35,7 @@ let box3XO = (i) => {
 		box3.innerHTML = "X";
 	} else {
 		box3.innerHTML = "O";
-	}
+	};
 	i++;
 }
 
