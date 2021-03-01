@@ -12,7 +12,7 @@ let box9 = document.getElementById("box9");
 let i = 2;
 //Letting the players set their names for the game
 let player1 = prompt("Player 1 - Please enter your name:");
-let player2 = prompt("Player 2 - Please enter your name:")
+let player2 = prompt("Player 2 - Please enter your name:");
 
 let box1XO = (i) => {
 	if (i % 2) {
