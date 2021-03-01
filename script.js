@@ -15,7 +15,7 @@ let player1 = prompt("Player 1 - Please enter your name:");
 let player2 = prompt("Player 2 - Please enter your name:");
 
 let box1XO = (i) => {
-	if (i % 2) {
+	if (i % 2 === 0) {
 		box1.innerHTML = "X";
 	} else {
 		box1.innerHTML = "O";
