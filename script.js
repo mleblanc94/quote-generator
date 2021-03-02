@@ -20,6 +20,7 @@ let box1XO = (i) => {
 	} else {
 		box1.innerHTML = "O";
 	};
+	i++;
 }
 
 let box2XO = (i) => {
