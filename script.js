@@ -8,17 +8,26 @@ let box6 = document.getElementById("box6");
 let box7 = document.getElementById("box7");
 let box8 = document.getElementById("box8");
 let box9 = document.getElementById("box9");
+//Text Area Capturing
+let textarea1 = document.getElementById("textarea1");
+let textarea2 = document.getElementById("textarea2");
 // Integer I to vary between X and O
 let i = 2;
 //Letting the players set their names for the game
 let player1 = prompt("Player 1 - Please enter your name:");
 let player2 = prompt("Player 2 - Please enter your name:");
 
+textarea1.innerHTML = `${player1} - You are X - and you're up!`
+
 let box1XO = () => {
 	if (i % 2 === 0) {
 		box1.innerHTML = "X";
+        textarea2.innerHTML = `${player2}, you are up!`
+        textarea1.innerHTML = "";
 	} else {
 		box1.innerHTML = "O";
+		textarea1.innerHTML = `${player1}, your turn!`
+		textarea2.innerHTML = "";
 	};
 	i++;
 }
