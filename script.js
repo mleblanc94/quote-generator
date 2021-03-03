@@ -14,7 +14,7 @@ let i = 2;
 let player1 = prompt("Player 1 - Please enter your name:");
 let player2 = prompt("Player 2 - Please enter your name:");
 
-let box1XO = (i) => {
+let box1XO = () => {
 	if (i % 2 === 0) {
 		box1.innerHTML = "X";
 	} else {
@@ -23,7 +23,7 @@ let box1XO = (i) => {
 	i++;
 }
 
-let box2XO = (i) => {
+let box2XO = () => {
 	if (i % 2 === 0) {
 		box2.innerHTML = "X";
 	} else {
@@ -32,7 +32,7 @@ let box2XO = (i) => {
 	i++;
 }
 
-let box3XO = (i) => {
+let box3XO = () => {
 	if (i % 2 === 0) {
 		box3.innerHTML = "X";
 	} else {
@@ -41,7 +41,7 @@ let box3XO = (i) => {
 	i++;
 }
 
-let box4XO = (i) => {
+let box4XO = () => {
 	if (i % 2 === 0) {
 		box4.innerHTML = "X";
 	} else {
@@ -50,7 +50,7 @@ let box4XO = (i) => {
 	i++;
 }
 
-let box5XO = (i) => {
+let box5XO = () => {
 	if (i % 2 === 0) {
 		box5.innerHTML = "X";
 	} else {
@@ -59,7 +59,7 @@ let box5XO = (i) => {
 	i++;
 }
 
-let box6XO = (i) => {
+let box6XO = () => {
 	if (i % 2 === 0) {
 		box6.innerHTML = "X";
 	} else {
@@ -68,7 +68,7 @@ let box6XO = (i) => {
 	i++;
 }
 
-let box7XO = (i) => {
+let box7XO = () => {
 	if (i % 2 === 0) {
 		box7.innerHTML = "X";
 	} else {
@@ -77,7 +77,7 @@ let box7XO = (i) => {
 	i++;
 }
 
-let box8XO = (i) => {
+let box8XO = () => {
 	if (i % 2 === 0) {
 		box8.innerHTML = "X";
 	} else {
@@ -86,11 +86,23 @@ let box8XO = (i) => {
 	i++;
 }
 
-let box9XO = (i) => {
+let box9XO = () => {
 	if (i % 2 === 0) {
 		box9.innerHTML = "X";
 	} else {
 		box9.innerHTML = "O";
 	};
 	i++;
+}
+
+let reset = () => {
+	box1.innerHTML = "";
+	box2.innerHTML = "";
+	box3.innerHTML = "";
+	box4.innerHTML = "";
+	box5.innerHTML = "";
+	box6.innerHTML = "";
+	box7.innerHTML = "";
+	box8.innerHTML = "";
+	box9.innerHTML = "";
 }
