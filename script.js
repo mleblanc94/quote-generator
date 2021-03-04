@@ -32,10 +32,12 @@ let box1XO = () => {
 		box1.innerHTML = "X";
         textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box1.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	};
 	i++;
 }
@@ -45,10 +47,12 @@ let box2XO = () => {
 		box2.innerHTML = "X";
 		textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box2.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	};
 	i++;
 }
@@ -58,10 +62,12 @@ let box3XO = () => {
 		box3.innerHTML = "X";
 		textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box3.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	};
 	i++;
 }
@@ -71,10 +77,12 @@ let box4XO = () => {
 		box4.innerHTML = "X";
 		textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box4.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	};
 	i++;
 }
@@ -84,10 +92,12 @@ let box5XO = () => {
 		box5.innerHTML = "X";
 		textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box5.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	};
 	i++;
 }
@@ -97,10 +107,12 @@ let box6XO = () => {
 		box6.innerHTML = "X";
 		textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box6.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	};
 	i++;
 }
@@ -110,10 +122,12 @@ let box7XO = () => {
 		box7.innerHTML = "X";
 		textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box7.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	}
 	i++;
 }
@@ -123,10 +137,12 @@ let box8XO = () => {
 		box8.innerHTML = "X";
 		textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box8.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	};
 	i++;
 }
@@ -136,17 +152,27 @@ let box9XO = () => {
 		box9.innerHTML = "X";
 		textarea2.innerHTML = `${player2}, you are up!`
         textarea1.innerHTML = "";
+        checkWin();
 	} else {
 		box9.innerHTML = "O";
 		textarea1.innerHTML = `${player1}, your turn!`
 		textarea2.innerHTML = "";
+		checkWin();
 	};
 	i++;
 }
 
+
+let checkWin = () => {
 if (box1.innerHTML === "X" && box4.innerHTML === "X" && box7.innerHTML === "X") {
-	alert("player1 WINS!!!!!");
+	alert(player1 + " WINS!!!!!");
+} else if (box3.innerHTML === "X" && box6.innerHTML === "X" && box9.innerHTML === "X") {
+	alert(player1 + " WINS!!!!!");
+} else if (box7.innerHTML === "X" && box8.innerHTML === "X" && box9.innerHTML === "X") {
+	alert(player1 + " WINS!!!!!");
 }
+};
+
 
 let reset = () => {
 	box1.innerHTML = "";
