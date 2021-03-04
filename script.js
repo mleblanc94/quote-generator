@@ -180,21 +180,21 @@ if (box1.innerHTML === "X" && box4.innerHTML === "X" && box7.innerHTML === "X") 
 	alert(player1 + " WINS!!!!!");
 } else if (box3.innerHTML === "X" && box5.innerHTML === "X" && box7.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
-} else if (box3.innerHTML === "O" && box6.innerHTML === "X" && box9.innerHTML === "X") {
+} else if (box3.innerHTML === "O" && box6.innerHTML === "O" && box9.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
-} else if (box7.innerHTML === "O" && box8.innerHTML === "X" && box9.innerHTML === "X") {
+} else if (box7.innerHTML === "O" && box8.innerHTML === "O" && box9.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
-} else if (box2.innerHTML === "O" && box5.innerHTML === "X" && box8.innerHTML === "X") {
+} else if (box2.innerHTML === "O" && box5.innerHTML === "O" && box8.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
-} else if (box1.innerHTML === "O" && box2.innerHTML === "X" && box3.innerHTML === "X") {
+} else if (box1.innerHTML === "O" && box2.innerHTML === "O" && box3.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
-} else if (box4.innerHTML === "O" && box5.innerHTML === "X" && box6.innerHTML === "X") {
+} else if (box4.innerHTML === "O" && box5.innerHTML === "O" && box6.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
-} else if (box1.innerHTML === "O" && box5.innerHTML === "X" && box9.innerHTML === "X") {
+} else if (box1.innerHTML === "O" && box5.innerHTML === "O" && box9.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
-} else if (box3.innerHTML === "O" && box5.innerHTML === "X" && box7.innerHTML === "X") {
+} else if (box3.innerHTML === "O" && box5.innerHTML === "O" && box7.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
-} else if (box1.innerHTML === "O" && box4.innerHTML === "X" && box7.innerHTML === "X") {
+} else if (box1.innerHTML === "O" && box4.innerHTML === "O" && box7.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
 }
 };
