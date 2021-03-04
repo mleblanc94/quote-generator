@@ -144,6 +144,10 @@ let box9XO = () => {
 	i++;
 }
 
+if (box1.innerHTML === "X" && box4.innerHTML === "X" && box7.innerHTML === "X") {
+	alert("player1 WINS!!!!!");
+}
+
 let reset = () => {
 	box1.innerHTML = "";
 	box2.innerHTML = "";
@@ -159,6 +163,4 @@ let reset = () => {
     i = 2;
 }
 
-if (box1.innerHTML === "X" && box4.innerHTML === "X" && box7.innerHTML === "X") {
-	alert("player1 WINS!!!!!");
-}
+
