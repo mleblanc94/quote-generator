@@ -156,6 +156,7 @@ let reset = () => {
 	box9.innerHTML = "";
     textarea1.innerHTML = `${player1} - You are X - and you're up!`
     textarea2.innerHTML = "";
+    i = 2;
 }
 
 if (box1.innerHTML === "X" && box4.innerHTML === "X" && box7.innerHTML === "X") {
