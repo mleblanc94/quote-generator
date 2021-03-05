@@ -17,11 +17,11 @@ let i = 2;
 let player1 = prompt("Player 1 - Please enter your name:");
 let player2 = prompt("Player 2 - Please enter your name:");
 
-if (player1 === "") {
+if (player1 === "" || player2 === null) {
 	player1 = "Player 1";
 }
 
-if (player2 === "") {
+if (player2 === "" || player2 === null) {
 	player2 = "Player 2";
 }
 
@@ -166,36 +166,52 @@ let box9XO = () => {
 let checkWin = () => {
 if (box1.innerHTML === "X" && box4.innerHTML === "X" && box7.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
+	reset();
 } else if (box3.innerHTML === "X" && box6.innerHTML === "X" && box9.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
+	reset();
 } else if (box7.innerHTML === "X" && box8.innerHTML === "X" && box9.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
+	reset();
 } else if (box2.innerHTML === "X" && box5.innerHTML === "X" && box8.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
+	reset();
 } else if (box1.innerHTML === "X" && box2.innerHTML === "X" && box3.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
+	reset();
 } else if (box4.innerHTML === "X" && box5.innerHTML === "X" && box6.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
+	reset();
 } else if (box1.innerHTML === "X" && box5.innerHTML === "X" && box9.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
+	reset();
 } else if (box3.innerHTML === "X" && box5.innerHTML === "X" && box7.innerHTML === "X") {
 	alert(player1 + " WINS!!!!!");
+	reset();
 } else if (box3.innerHTML === "O" && box6.innerHTML === "O" && box9.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
+	reset();
 } else if (box7.innerHTML === "O" && box8.innerHTML === "O" && box9.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
+	reset();
 } else if (box2.innerHTML === "O" && box5.innerHTML === "O" && box8.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
+	reset();
 } else if (box1.innerHTML === "O" && box2.innerHTML === "O" && box3.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
+	reset();
 } else if (box4.innerHTML === "O" && box5.innerHTML === "O" && box6.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
+	reset();
 } else if (box1.innerHTML === "O" && box5.innerHTML === "O" && box9.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
+	reset();
 } else if (box3.innerHTML === "O" && box5.innerHTML === "O" && box7.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
+	reset();
 } else if (box1.innerHTML === "O" && box4.innerHTML === "O" && box7.innerHTML === "O") {
 	alert(player2 + " WINS!!!!!");
+	reset();
 }
 };
 
