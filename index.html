@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tic-Tac-Toe</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta charset="utf-8">
+	<title>Calculator</title>
 </head>
 <body>
-<h1>Mike's Tik-Tak-Toe Game</h1>
-<div id="bigContainer">
-<div onClick="yourTurn()" id="textarea1"></div>
 <div id="container">
-	<div onClick="box1XO()" id="box1"></div>
-	<div onClick="box2XO()" id="box2"></div>
-	<div onClick="box3XO()" id="box3"></div>
-	<div onClick="box4XO()" id="box4"></div>
-	<div onClick="box5XO()" id="box5"></div>
-	<div onClick="box6XO()" id="box6"></div>
-	<div onClick="box7XO()" id="box7"></div>
-	<div onClick="box8XO()" id="box8"></div>
-	<div onClick="box9XO()" id="box9"></div>
+	<div id="inputScreen"></div>
+	<div id="operations">
+		<div id="addition">+</div>
+		<div id="subtraction">-</div>
+		<div id="multiplication">x</div>
+		<div id="division">/</div>
+	</div>
 </div>
-<div onClick="yourTurn()" id="textarea2"></div>
-</div>
-<div id="buttonDiv">
-<button onClick="reset()" id="reset">RESET</button>
-</div>
-<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
