@@ -9,6 +9,7 @@ body {
 	width: 22%;
 	/*padding-bottom: 5%;*/
 	padding-top: 0%;
+	font-weight: 200;
 }
 
 #inputScreen {
@@ -49,4 +50,6 @@ body {
     align-items: center;
 }
 
-#equals
+#equals {
+	height: 800px;
+}
