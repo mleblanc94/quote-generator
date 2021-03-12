@@ -6,9 +6,9 @@ body {
 	background-color: gray;
 	margin-left: auto;
 	margin-right: auto;
-	width: 25%;
+	width: 22%;
 	/*padding-bottom: 5%;*/
-	padding-top: 1%;
+	padding-top: 0%;
 }
 
 #inputScreen {
@@ -17,6 +17,7 @@ body {
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 4px;
 }
 
 #operations {
@@ -25,9 +26,25 @@ body {
 }
 
 #addition, #subtraction, #multiplication, #division {
+	background-color: #9adaed;
+	margin-top: 4px;
+    width: 23%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numbers789, #numbers456, #numbers123 {
+	display: flex;
+}
+
+#numbers789 div, #numbers456 div, #numbers123 div{
 	background-color: #f0eded;
-	margin-top: 5px;
-	padding: 40px;
-	border: 1px black solid;
-	font-size: 250%;
+	margin: 4px;
+    width: 23%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
