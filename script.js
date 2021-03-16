@@ -19,3 +19,10 @@ let three = document.getElementById("three");
 let point = document.getElementById("point");
 let equals = document.getElementById("equals");
 let clear = document.getElementById("clear");
+
+
+
+
+one.addEventListener("click", function() {
+	inputScreen.innerHTML = "1";
+})
