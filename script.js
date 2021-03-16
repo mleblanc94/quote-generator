@@ -26,3 +26,7 @@ let clear = document.getElementById("clear");
 one.addEventListener("click", function() {
 	inputScreen.innerHTML = "1";
 })
+
+clear.addEventListener("click", function() {
+	inputScreen.innerHTML = "";
+})

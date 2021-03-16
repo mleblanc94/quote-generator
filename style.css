@@ -41,6 +41,11 @@ body {
     align-items: center;
 }
 
+#addition:hover, #subtraction:hover, #multiplication:hover, #division:hover {
+	background-color: #1100ff;
+	color: white;
+}
+
 #numbers789, #numbers456, #numbers123 {
 	display: flex;
 }
