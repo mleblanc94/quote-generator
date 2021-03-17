@@ -8,31 +8,31 @@
 <body>
 <div id="container">
 <div id="screen">
-	<div id="inputScreen"></div>
+	<input type="text" id="inputScreen"></input>
 </div>
 	<div id="operations">
-		<div id="addition">+</div>
-		<div id="subtraction">-</div>
-		<div id="multiplication">x</div>
-		<div id="division">/</div>
+		<div id="addition" value="+" onClick="dis('+')">+</div>
+		<div id="subtraction" value="-" onClick="dis('-')">-</div>
+		<div id="multiplication" value="*" onClick="dis('*')">x</div>
+		<div id="division" value="/" onClick="dis('/')">/</div>
 	</div>
 	<div id="numbers789">
-		<div id="seven">7</div>
-		<div id="eight">8</div>
-		<div id="nine">9</div>
-		<div id="clear">C</div>
+		<div id="seven" value="7" onClick="dis('7')">7</div>
+		<div id="eight" value="8" onClick="dis('8')">8</div>
+		<div id="nine" value="9" onClick="dis('9')">9</div>
+		<div id="clear" onClick="clr()">C</div>
 	</div>
 	<div id="numbers456">
-		<div id="four">4</div>
-		<div id="five">5</div>
-		<div id="six">6</div>
-		<div id="point">.</div>
+		<div id="four" value="4" onClick="dis('4')">4</div>
+		<div id="five" value="5" onClick="dis('5')">5</div>
+		<div id="six" value="6" onClick="dis('6')">6</div>
+		<div id="point" value="." onClick="dis('.')">.</div>
 	</div>
 	<div id="numbers123">
-		<div id="one">1</div>
-		<div id="two">2</div>
-		<div id="three">3</div>
-		<div id="equals">=</div>
+		<div id="one" value="1" onClick="dis('1')">1</div>
+		<div id="two" value="2" onClick="dis('2')">2</div>
+		<div id="three" value="3" onClick="dis('3')">3</div>
+		<div id="equals" onClick="solve()">=</div>
 	</div>
 	<script type="text/javascript" src="script.js"></script>
 </body>
