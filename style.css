@@ -60,6 +60,10 @@ body {
     align-items: center;
 }
 
+#numbers789 div:hover, #numbers456 div:hover, #numbers123 div:hover {
+	background-color: #9da1a8;
+}
+
 #equals {
 	height: 800px;
 }
