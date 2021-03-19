@@ -9,9 +9,11 @@ body {
 #listHeader {
 	margin-top: 0px;
 	padding-bottom: -30px;
+	margin-bottom: 0;
 	color: white;
 	background-color: #5e585c;
 	display: flex;
+	border-bottom: 1px gray solid;
 }
 
 #listHeader li {
@@ -31,6 +33,11 @@ li img {
 	color: white;
 	background-color: #5e585c;
 	display: flex;
+	margin-top: 0px;
+}
+
+#subheader ul {
+	margin-top: 0px;
 }
 
 #subheader li {
