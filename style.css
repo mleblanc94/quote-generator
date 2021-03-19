@@ -22,6 +22,9 @@ body {
 	margin-top: 11px;
 	padding-bottom: 0px;
 	list-style-type: none;
+	padding-right: 30px;
+	border-right: 1px gray solid;
+	border-right-height: 5px;
 }
 
 li img {
@@ -34,6 +37,7 @@ li img {
 	background-color: #5e585c;
 	display: flex;
 	margin-top: 0px;
+	padding: 30px;
 }
 
 #subheader ul {
@@ -43,4 +47,15 @@ li img {
 #subheader li {
 margin: 25px;
 list-style-type: none;
+}
+
+li button {
+	width: 150px;
+	height: 70px;
+	background-color: red;
+	border-color: red;
+	font-size: 100%;
+	color: white;
+	font-weight: bold;
+	
 }
