@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+
+#header {
+	padding-bottom: 0px;
+}
+
+#listHeader {
+	margin-top: 0px;
+	padding-bottom: -30px;
+	color: white;
+	background-color: #5e585c;
+	display: flex;
+}
+
+#listHeader li {
+	margin: 20px;
+	margin-bottom: 0px;
+	margin-top: 11px;
+	padding-bottom: 0px;
+	list-style-type: none;
+}
+
+li img {
+	height: 30px;
+	width: 30px;
+}
+
+#subheader {
+	color: white;
+	background-color: #5e585c;
+	display: flex;
+}
+
+#subheader li {
+margin: 25px;
+list-style-type: none;
+}
