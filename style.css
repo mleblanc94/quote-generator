@@ -44,10 +44,11 @@ li img {
 
 #subheader ul {
 	margin-top: 0px;
+	margin: left auto;
 }
 
 #subheader li {
-margin: 25px;
+margin: 20px;
 list-style-type: none;
 }
 
