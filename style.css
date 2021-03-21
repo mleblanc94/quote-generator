@@ -18,6 +18,26 @@ body {
 
 }
 
+#listHeader span {
+	color: #b89827;
+}
+
+#subheader a {
+	text-decoration: none;
+	color: white;
+}
+
+#subheader a:hover {
+	color: #b89827;
+}
+
+#subheader img {
+	width: 60px;
+	height: 60px;
+	background-color: #5e585c;
+	margin-top: -20px;
+}
+
 #listHeader li {
 	margin: 20px;
 	margin-bottom: 0px;
@@ -39,7 +59,12 @@ li img {
 	background-color: #5e585c;
 	display: flex;
 	margin-top: 0px;
+	margin-bottom: 0px;
 	padding: 30px;
+}
+
+#orderonline a:hover {
+ color: black;
 }
 
 #subheader ul {
@@ -83,4 +108,24 @@ li button {
 
 #bodytext span {
 	color: #b89827;
+}
+
+#mainbody {
+ display: flex;
+ height: 500px;
+}
+
+#mainbody img {
+	width: 800px;
+	height: 100%;
+}
+
+#bodypictext {
+	color: white;
+	background-color: black;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 350%;
 }
