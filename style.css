@@ -110,6 +110,7 @@ box-shadow: 10px 5px 5px black;
 
 #bodytext {
 	list-style: none;
+	font-size: 150%;
 }
 
 #bodytext span {
@@ -133,5 +134,11 @@ box-shadow: 10px 5px 5px black;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 350%;
+	font-size: 400%;
+}
+
+h2 {
+	text-align: center;
+	color: #383735;
+	border-bottom: 1px solid red;
 }
