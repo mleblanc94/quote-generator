@@ -140,5 +140,14 @@ box-shadow: 10px 5px 5px black;
 h2 {
 	text-align: center;
 	color: #383735;
-	border-bottom: 1px solid red;
+}
+
+h2:before{
+    content: "";
+    position: absolute;
+    width: 6%;
+    bottom: 8px;
+    left: 47%;
+    border-bottom: 1px solid #b89827;
+    border-bottom-width: 4px;
 }
