@@ -49,6 +49,10 @@ body {
 	border-right-height: 5px;
 }
 
+#listHeader a {
+	margin-left: auto;
+}
+
 li img {
 	height: 30px;
 	width: 30px;
@@ -58,8 +62,8 @@ li img {
 	color: white;
 	background-color: #5e585c;
 	display: flex;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	justify-content: flex-end;
+	margin: 0;
 	padding: 30px;
 }
 
@@ -67,14 +71,13 @@ li img {
  color: black;
 }
 
-#subheader ul {
-	margin-top: 0px;
-	margin: left auto;
+#subheader li {
+margin: 20px 15px;
+list-style-type: none;
 }
 
-#subheader li {
-margin: 20px;
-list-style-type: none;
+.push {
+ margin-right: auto;
 }
 
 li button {
