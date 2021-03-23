@@ -32,8 +32,8 @@ body {
 }
 
 #subheader img {
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	height: 100px;
 	background-color: #5e585c;
 	margin-top: -20px;
 }
@@ -63,6 +63,7 @@ li img {
 	background-color: #5e585c;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 	margin: 0;
 	padding: 30px;
 }
@@ -72,8 +73,9 @@ li img {
 }
 
 #subheader li {
-margin: 20px 15px;
-list-style-type: none;
+   font-size: 120%;
+   margin: 20px 15px;
+   list-style-type: none;
 }
 
 .push {
