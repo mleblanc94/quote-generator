@@ -151,3 +151,49 @@ h2:before{
     border-bottom: 1px solid #b89827;
     border-bottom-width: 4px;
 }
+
+#lowerbodytext {
+	width: 50%;
+    margin-left: 25%;
+    padding-bottom: 20px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: solid #a6a9ad 1px;
+}
+
+#lowerbodytext p, h1 {
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "Gill Sans";
+}
+
+#meatman {
+	color: #b89827;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#verylowertext {
+	margin-top: 60px;
+}
+
+#verylowertext h3 {
+	text-align: center;
+	position: relative;
+	bottom: 14%;
+	color: #383735;
+}
+
+h3:before{
+    content: "";
+    position: absolute;
+    width: 6%;
+    bottom: -25px;
+    left: 47%;
+    border-bottom: 1px solid #b89827;
+    border-bottom-width: 4px;
+}
