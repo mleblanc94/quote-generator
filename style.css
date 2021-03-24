@@ -197,3 +197,16 @@ h3:before{
     border-bottom: 1px solid #b89827;
     border-bottom-width: 4px;
 }
+
+#featuredfavorites {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+#featuredfavorites img {
+	margin: 15px;
+	border: black solid 2px;
+	width: 400px;
+	height: 400px;
+}
