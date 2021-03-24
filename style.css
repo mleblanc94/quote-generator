@@ -202,6 +202,7 @@ h3:before{
 	display: flex;
 	justify-content: center;
 	margin-top: 80px;
+
 }
 
 #featuredfavorites img {
@@ -209,4 +210,19 @@ h3:before{
 	border: black solid 2px;
 	width: 400px;
 	height: 400px;
+}
+
+#featuredfavorites h4, p {
+	text-align: center;
+}
+
+#finalbuttons {
+	margin-left: auto;
+}
+
+#viewmenu {
+	height: 45px;
+	width: 200px;
+	background-color: #b89827; 
+	margin-left: auto;
 }
