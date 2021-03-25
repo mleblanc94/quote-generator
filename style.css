@@ -226,3 +226,11 @@ h3:before{
 	background-color: #b89827; 
 	margin-left: auto;
 }
+
+#footer {
+	background-color: #5e585c;
+	color: white;
+	margin-bottom: 0;
+	display: flex;
+
+}
