@@ -87,7 +87,7 @@ li button {
 	height: 70px;
 	background-color: red;
 	border-color: red;
-	font-size: 100%;
+	font-size: 95%;
 	color: white;
 	font-weight: bold;
 	
@@ -140,14 +140,15 @@ box-shadow: 10px 5px 5px black;
 h2 {
 	text-align: center;
 	color: #383735;
+	position: relative;
 }
 
 h2:before{
     content: "";
     position: absolute;
-    width: 6%;
-    bottom: 8px;
-    left: 47%;
+    width: 10%;
+    bottom:-15px;
+    left: 45%;
     border-bottom: 1px solid #b89827;
     border-bottom-width: 4px;
 }
@@ -216,21 +217,35 @@ h3:before{
 	text-align: center;
 }
 
-#finalbuttons {
-	margin-left: auto;
+#bottombuttons {
+   display: flex;
+   flex-direction: column;
 }
 
 #viewmenu {
 	height: 45px;
 	width: 200px;
 	background-color: #b89827; 
+	margin-right: auto;
 	margin-left: auto;
+}
+
+#orderonline {
+	width: 170px;
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 100%;
 }
 
 #footer {
 	background-color: #5e585c;
 	color: white;
 	margin-bottom: 0;
+	padding-left: 10px;
+	height: 60px;
 	display: flex;
-
+	align-items: center;
 }
