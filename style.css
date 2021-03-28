@@ -18,6 +18,11 @@ body {
 
 }
 
+#socialmedia {
+	margin-left: auto;
+	display: flex;
+}
+
 #listHeader span {
 	color: #b89827;
 }
